@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "totemench",
+	"version": "${version}",
+	"name": "Totem Enchanting",
+	"description": "Lets you enchant the Totem of Undying.",
+	"authors": [
+		"Adam"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kyoto.totemench.TotemEnchant"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
